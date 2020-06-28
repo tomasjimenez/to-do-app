@@ -22,8 +22,13 @@ const Task = (props) => {
           <button type="button" className="btn btn-danger" onClick={() => deleteTask(props.id) }>
             Eliminar
           </button>
+          <div className="col-3">
+          <button type="button" className="btn btn-info" >
+            Editar
+          </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
